@@ -1,9 +1,9 @@
-from numpy import arctan, interp, array, deg2rad, cos, pi, sin
+from airplanes.hydrotransport.H21 import plane
 from controls.equationsOfMotion import nonlinear_eom
 from controls.forceModel import c_f_m
-from airplanes.hydrotransport.H21 import plane
-from matplotlib import pyplot as plt
 from controls.trim.trim_long import trim_alpha_de
+from matplotlib import pyplot as plt
+from numpy import arctan, interp, array, deg2rad, cos, pi, sin
 
 aircraft = plane
 altitude = 30000
